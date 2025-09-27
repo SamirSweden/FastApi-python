@@ -23,7 +23,7 @@ app.add_middleware(
 )
 
 
-SECRET_KEY = "M2I5MWMzMWY0Njg3MzFkNjZhMTRhZTZmNmM5ZTE1Zg"
+SECRET_KEY = "" #paste ur own jwt key 
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 pwd_context = CryptContext(schemes=["bcrypt"] , deprecated="auto")
